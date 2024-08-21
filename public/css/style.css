@@ -1,0 +1,141 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+sup {
+    color: #fd0d0d;
+}
+
+header {
+    margin-bottom: 50px;
+    padding: 10px 0;
+    border-bottom: #0d6efd solid 1px;
+}
+
+/* header */
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.active {
+    font-weight: 500;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+/* login-page, reg-page, main-page */
+
+.main-form {
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px #1631521F;
+}
+
+.main-form h2 {
+    color: #0d6efd;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.login-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-footer a {
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+/* profile-page */
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile h2 {
+    margin-bottom: 20px;
+}
+
+.functions-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.functions-list li {
+    margin-bottom: 20px;
+}
+
+.functions-list a {
+    width: 200px;
+}
+
+.functions-list li:last-child {
+    margin-bottom: 20px;
+}
+
+/* applications-list-page */
+
+.applications-list {
+    margin-bottom: 100px;
+}
+
+.applications-list h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.status-new {
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+.status-work {
+    color: #0040b0;
+    font-weight: 500;
+}
+
+.status-end {
+    color: #002464;
+    font-weight: 500;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-footer {
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+}
